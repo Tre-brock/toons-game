@@ -1,3 +1,3 @@
-# toons-game
+# toons-gamed
 
-a work in progress (progress will take 203725 years💀)
+Code of toons game, no binarys will be provided. Those will be bought throught steam and maybe itch.
