@@ -1,3 +1,14 @@
 [gd_scene format=3 uid="uid://dbpqcbsoxhbq4"]
 
 [node name="Node3D" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0626516, -1.3662, -2.12186)
+size = Vector3(13.8622, 1, 17.5345)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.323655, -0.12793)
+size = Vector3(1, 1.12207, 1.25586)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0484676, 2.65359, 5.42839)
