@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dbpqcbsoxhbq4"]
+[gd_scene load_steps=2 format=3 uid="uid://dbpqcbsoxhbq4"]
+
+[ext_resource type="PackedScene" uid="uid://beboivndije3j" path="res://3d models/Cole.blend" id="1_onucc"]
 
 [node name="Node3D" type="Node3D"]
 
@@ -6,9 +8,9 @@
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0626516, -1.3662, -2.12186)
 size = Vector3(13.8622, 1, 17.5345)
 
-[node name="CSGBox3D2" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.323655, -0.12793)
-size = Vector3(1, 1.12207, 1.25586)
-
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0484676, 2.65359, 5.42839)
+transform = Transform3D(0.881493, 0, -0.472197, 0, 1, 0, 0.472197, 0, 0.881493, -0.0484676, 2.65359, 5.42839)
+fov = 90.7267
+
+[node name="Cole" parent="." instance=ExtResource("1_onucc")]
+transform = Transform3D(0.408872, 0, 0.912592, 0, 1, 0, -0.912592, 0, 0.408872, 1.19496, -0.641914, -0.623215)
